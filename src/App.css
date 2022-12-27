@@ -13,8 +13,8 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.parent {
+  background-color: #494b4e;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,7 +23,21 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.button{
+  font-size:50px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 5px;
+  border-color: rgb(143, 123, 97);
+  border-style:double;
+  border-width: 15px;
+  color:blue
+}
+.count{
+  border-style: dashed;
+  border-width: 5px;
+  font-family: fantasy;
+  font-size:larger;
+}
 .App-link {
   color: #61dafb;
 }
